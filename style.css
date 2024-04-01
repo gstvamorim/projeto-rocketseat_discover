@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0 auto;
   padding: 0 24px;
 }
@@ -67,10 +68,10 @@ body * {
   border: 0;
   border-radius: 50%;
 
-  position: absolute; 
+  position: absolute;
   top: 50%;
   left: 0;
-  z-index: 1; 
+  z-index: 1;
   transform: translateY(-50%);
 }
 
